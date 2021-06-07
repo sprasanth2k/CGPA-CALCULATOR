@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body
+{
+    background-color: #2e9bdc;
+}
+.header
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.home-heading
+{
+    color: white;
+    padding: 10px 5px 10px 5px;
+    font-family: Merriweather;
+    font-size: 2rem;
+}
+.login-btn,.logout-btn
+{
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1rem;
+    font-family: Balsamiq Sans;
+    border-radius: 6px;
+    cursor: pointer;
+    width: fit-content;
+    padding: 7px;
+    transition-duration: 0.3s;
+}
+.login-btn:hover,.logout-btn:hover
+{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #1674aa;
+}
+.logout-btn
+{
+    display: none;
+}
+.page-center
+{
+    height: 82vh;
+}
+.home-divs
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: Balsamiq Sans;
+    font-size: 1.4rem;
+    transition-duration: 0.3s;
+    height: 50%;
+    padding: 7px;
+}
+.home-divs:hover
+{
+    transform: scale(1.1);
+    text-shadow: 0 0 15px white, 0 0 15px white;
+}
+@media screen and (min-width: 700px) {
+    .home-divs {
+      font-size: 1.6rem;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .home-divs {
+      font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .login-btn,.logout-btn {
+      padding: 4px;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+    .home-heading
+    {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 370px) {
+    .login-btn,.logout-btn {
+        padding: 3px;
+        font-size: 0.85rem;
+        border-radius: 4px;
+    }
+    .home-heading
+    {
+        font-size: 1.1rem;
+    }
+}
+.home-link
+{
+    cursor: pointer;
+}

@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+body
+{
+    background-color: #2e9bdc;
+    padding-bottom: 40px;
+}
+.header
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.home-heading
+{
+    color: white;
+    padding: 10px 5px 10px 5px;
+    font-family: Merriweather;
+    font-size: 2rem;
+}
+.logout-btn
+{
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1rem;
+    font-family: Balsamiq Sans;
+    border-radius: 6px;
+    cursor: pointer;
+    width: fit-content;
+    padding: 7px;
+    transition-duration: 0.3s;
+}
+.logout-btn:hover
+{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #1674aa;
+}
+
+@media screen and (max-width: 450px) {
+    .logout-btn {
+      padding: 4px;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+    .home-heading
+    {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 370px) {
+    .logout-btn {
+        padding: 3px;
+        font-size: 0.85rem;
+        border-radius: 4px;
+    }
+    .home-heading
+    {
+        font-size: 1.1rem;
+    }
+}
+
+.gpa-container
+{
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 80vw;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: default;
+}
+@media screen and (max-width: 500px) {
+    .gpa-container{
+        width: 85vw;
+    }
+}
+
+.gpa-heading
+{
+    color: white;
+    font-size: 1.5rem;
+    font-family: Balsamiq sans;
+}
+@media screen and (max-width: 500px) {
+    .gpa-heading{
+        font-size: 1rem;
+    }
+}
+
+.form-input
+{
+    font-family: Balsamiq sans;
+    width: 75%;
+}
+.form-input::placeholder
+{
+    font-family: kalam;
+}
+.gpa-form-btns
+{
+    font-family: balsamiq sans;
+}
+.add-btn,.del-btn
+{
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    width: 85%;
+}
+.add-btn:hover,.del-btn:hover
+{
+    background-color: white;
+    color: #2e9bdc;
+}
+.calculate-btn
+{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #2e9bdc;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    width: 30%;
+    padding: 10px 5px 10px 5px;
+    border-radius: 20px;
+}
+.calculate-btn:hover
+{
+    background-color: white;
+}
+
+@media screen and (max-width: 900px) {
+    .form-input
+    {
+        width: 85%;
+    }
+    .add-btn,.del-btn
+    {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .form-input,.add-btn,.del-btn
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .add-btn,.del-btn
+    {
+        font-size: 0.9rem;
+    }
+    
+}
+
+.invalid-input 
+{
+    outline: none !important;
+    border:2px solid rgb(228, 61, 61) !important;
+    box-shadow: 0 0 5px rgb(228, 61, 61) !important;
+}
+.home-link
+{
+    cursor: pointer;
+}
+.sem-no
+{
+    text-align: center;
+    color: white;
+    font-family: Balsamiq Sans;
+    text-shadow: 0 0 3px #2e9bdc, 0 0 5px #2e9bdc;
+}
+.line
+{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.no-sem
+{
+    margin-top: 40px;
+    color: white;
+    font-family: Balsamiq sans;
+    text-align: center;
+    width: 95vw;
+    
+}
+
+input[type="text"]:disabled 
+{
+    text-align: center;
+    background: #dddddd;
+}
+.update-icons
+{
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+.update-icons:hover
+{
+    color: rgba(255, 255, 255, 0.99);
+}
+
+.gpa-div
+{
+    color: white;
+    font-family: Balsamiq Sans;
+}

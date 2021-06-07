@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body
+{
+    background-color: #2e9bdc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-center
+{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    font-family: kalam;
+    border-radius: 5px;
+    box-shadow: 5px 15px 15px 0px rgba(50, 50, 50, 0.52)
+}
+.form-nav
+{
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+.login-nav,.signup-nav
+{
+    padding: 6px;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 0.7);
+}
+.login-nav
+{
+    border-right: 1.5px solid rgba(255, 255, 255, 0.7);
+}
+.active
+{
+    background-color: transparent;
+    color: black;
+}
+.login-btn
+{
+    outline: none;
+    border:none;
+    border-radius: 3px;
+    padding: 4px;
+    background-color: rgba(9,127,214,0.9);
+    color: white;
+    transition-duration: 0.3s;
+}
+#otpForm
+{
+    display: none;
+}
+.header
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.home-heading
+{
+    color: white;
+    padding: 10px 5px 10px 5px;
+    font-family: Merriweather;
+    font-size: 2rem;
+}
+
+.home-link
+{
+    cursor: pointer;
+}
