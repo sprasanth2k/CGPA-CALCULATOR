@@ -105,3 +105,11 @@ input
     color: white;
     transition-duration: 0.3s;
 }
+.no-sem
+{
+    margin-top: 40px;
+    color: white;
+    font-family: Balsamiq sans;
+    text-align: center;
+    width: 95vw;
+}

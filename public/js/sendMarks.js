@@ -7,12 +7,27 @@ function logout()
     window.location.href = '/home'
 }
 
+var semesters
 function renderPage()
 {
     verifyUser()
     .then( response => {
         if(response.statusCode == 1)
         {
+            semesters = response.semesters
+            if(!semesters.length)
+            {
+                document.querySelector('.page-center').remove()
+
+                let noSem = document.createElement('div')
+                noSem.className = 'no-sem'
+
+                let h3 = document.createElement('h3')
+                h3.innerHTML = 'Please add atleast one semester marks to send mail '
+
+                noSem.append(h3)
+                document.querySelector('body').append(noSem)
+            }
             document.querySelector('body').style.display = 'block'
         }
         else
