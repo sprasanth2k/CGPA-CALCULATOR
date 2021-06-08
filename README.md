@@ -25,7 +25,7 @@ download the code and modify the shared/credentials.js file details i.e your mon
     [3] View all semester section:  
         In order to access this page, the user should log in.In this page, the user can view all the semesters details that  
         he/she added to the website.And in below semester, the gpa scored in that semester will be displayed. After displaying  
-        all semester details, the overall cgpa will be displayed.
+        all semester details, the overall cgpa will be displayed.Here,users can also edit or delete the details entered.
         
     [4] Send marks section:  
         In order to access this page, the user should log in.In this page, the user can send his/her semesters details to her  
